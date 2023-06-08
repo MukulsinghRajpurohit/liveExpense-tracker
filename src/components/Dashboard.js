@@ -13,6 +13,7 @@ export default function Dashboard() {
   const [date, setDate] = useState("");
   const [itemName, setItemName] = useState("");
   const [expenses, setExpenses] = useState([]);
+ 
   const [emailSent, setEmailSent] = useState(false);
 
   async function handleLogout() {
@@ -33,7 +34,8 @@ export default function Dashboard() {
     // You can access the input values with fixAmount, expenseAmount, date, and itemName
 
     // Calculate remaining amount after deducting the expense
-    const remainingAmount =
+    
+     const remainingAmount =
       fixAmount -
       expenses.reduce((total, exp) => total + parseInt(exp.expenseAmount), 0);
 
