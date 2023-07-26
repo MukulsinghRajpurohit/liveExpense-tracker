@@ -2,13 +2,12 @@ import firebase from "firebase/app";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA7FWMXOdCqb1yFLuNiBXI43iHCQYBGFig",
-  authDomain: "promp321-d0c2e.firebaseapp.com",
-  projectId: "promp321-d0c2e",
-  storageBucket: "promp321-d0c2e.appspot.com",
-  messagingSenderId: "17051114348",
-  appId: "1:17051114348:web:2a6bacfd1e541138e17149",
-  measurementId: "G-EF1FBBP4JE"
+  apiKey: "AIzaSyAsVnuVnmCuweeIBKICtDAasLNh1U_itwk",
+  authDomain: "expence-f77bd.firebaseapp.com",
+  projectId: "expence-f77bd",
+  storageBucket: "expence-f77bd.appspot.com",
+  messagingSenderId: "388967268436",
+  appId: "1:388967268436:web:81473561d6c9aecc72adc1"
 };
 
 // Initialize Firebase app
